@@ -1,0 +1,177 @@
+<<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Level 2 - Endsem Presentation</title>
+    <style>
+      body {
+        font-family: 'Segoe UI', sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to bottom right, #eef3f7, #d6e0e5);
+        color: #333;
+      }
+      .container {
+        max-width: 1000px;
+        margin: 2rem auto;
+        padding: 2rem;
+        background: rgba(255, 255, 255, 0.85);
+        backdrop-filter: blur(6px);
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      }
+      header {
+        background: #c7dff4;
+        padding: 1.5rem;
+        text-align: center;
+        border-radius: 12px 12px 0 0;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      header h1 {
+        margin: 0;
+        font-size: 1.8rem;
+        color: #1a1a1a;
+      }
+      h2 {
+        border-left: 6px solid #87b5e5;
+        padding-left: 10px;
+        margin-top: 2rem;
+        color: #2a4e7e;
+      }
+      h22 {
+        padding-left: 10px;
+        margin-top: 2rem;
+        color: #2a4e7e;
+      }
+      .card-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+      .card {
+        background: rgba(255, 255, 255, 0.9);
+        padding: 1rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+        text-align: center;
+        transition: all 0.3s ease;
+        backdrop-filter: blur(4px);
+      }
+      .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+      }
+      .zoom-button {
+        display: block;
+        width: max-content;
+        margin: 1rem auto 1.5rem;
+        background-color: #428bca;
+        color: white;
+        padding: 0.75rem 1.5rem;
+        text-align: center;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+      }
+      .zoom-button:hover {
+        background-color: #3071a9;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 1rem;
+        background: white;
+        border-radius: 6px;
+        overflow: hidden;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      }
+      th, td {
+        padding: 0.75rem;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+      th {
+        background: #dbeaff;
+        color: #1c2e4a;
+      }
+      tr:nth-child(even) {
+        background: #f6faff;
+      }
+      .break-row {
+        background-color: #fff2cc !important;
+        font-weight: bold;
+        text-align: center;
+      }
+      @media (max-width: 600px) {
+        .container {
+          padding: 1rem;
+        }
+        th, td {
+          font-size: 0.9rem;
+          padding: 0.5rem;
+        }
+      }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+  <h1>Department of Mathematics</h1>
+  <h22 style="margin-top: 0.3rem; font-weight: normal; font-size: 1.2rem; color: #2f4f77;">MA5120 Project Level 2 – Endsem Presentation</h22>
+</header>
+
+    <h2>Important Dates</h2>
+    <table>
+      <tr><th>Event</th><th>Date</th></tr>
+      <tr><td>Report Submission</td><td>May 5, 2025 (11.59 PM)</td></tr>
+      <tr><td>Slides Submission</td><td>May 11, 2025 (11.59 PM)</td></tr>
+      <tr><td>Presentation</td><td>May 13, 2025</td></tr>
+      <tr><td>Endsem Score Submission</td><td>May 14, 2025 (11.59 PM)</td></tr>
+      <tr><td>Price Announcement</td><td>May 14, 2025</td></tr>
+    </table>
+
+    <h2>Important Links</h2>
+    <div class="card-grid">
+      <div class="card"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdo8PAOhgecHtg9CO7o8T7nl6dEDJj4K85w5Gv1zCAEmNd9Eg/viewform?usp=sharing" target="_blank" style="text-decoration: none; color: inherit; display: block;">Mentor Score Entry</a></div>
+      <div class="card"><a href="https://docs.google.com/forms/d/e/1FAIpQLSd39oEX5HRYJxvKqUPX6wyksqIwcWNf-FrFBMQRXd5uE0g3dA/viewform?usp=sharing" target="_blank" style="text-decoration: none; color: inherit; display: block;">PPC Score Entry</a></div>
+      <div class="card"><a href="https://example.com/presentation-guidelines" target="_blank" style="text-decoration: none; color: inherit; display: block;">Presentation Guidelines</a></div>
+    </div>
+    <div class="card-grid" style="margin-top: 1rem;">
+      <div class="card"><a href="https://docs.google.com/forms/d/e/1FAIpQLSd5YT7y0PQWSQHZ06HF8iB0g235IJ9S26dSyBlrkNy2sI_Ulg/viewform?usp=sharing" target="_blank" style="text-decoration: none; color: inherit; display: block;">Report Submission Portal</a></div>
+      <div class="card"><a href="https://docs.google.com/forms/d/e/1FAIpQLSclMG7epTzozQLfrOq6IXf8a13xokdUlaTUNftd1yG61uiLEg/viewform?usp=sharing" target="_blank" style="text-decoration: none; color: inherit; display: block;">Slide Submission Portal</a></div>
+    </div>
+
+    <h2>Presentation Schedule</h2>
+   <!-- <a href="https://zoom.us/j/92833099211?pwd=qfGui30WavQGgKlmgEoBl7NeQOL8bO.1"  target="_blank" class="zoom-button">Join Online</a> -->
+
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Mentor</th>
+        <th>PPC Member</th>
+        <th>Time Slot</th>
+        <th>Abstract</th>
+        <th>Slides</th>
+      </tr>
+      <tr><td>Rajendra Rajendra</td><td>Sarath Sasi</td><td>Gopikrishnan C R</td><td>9.30 - 10.00 AM</td><td><a href="abstracts/rajendra_abstract.pdf">Abstract</a></td><td><a href="slides/rajendra_slides.pdf">Slides</a></td></tr>
+      <tr><td>Kapil Kumar</td><td>Kanmani Subbu S.</td><td>Ganesh Natarajan</td><td>10.00 - 10.30 AM</td><td><a href="abstracts/kapil_abstract.pdf">Abstract</a></td><td><a href="slides/kapil_slides.pdf">Slides</a></td></tr>
+      <tr><td>Derick L Nongbet</td><td>Kanmani Subbu S.</td><td>Ganesh Natarajan</td><td>10.30 - 11.00 AM</td><td><a href="abstracts/derick_abstract.pdf">Abstract</a></td><td><a href="slides/derick_slides.pdf">Slides</a></td></tr>
+      <tr class="break-row"><td colspan="6">☕ Tea Break (11:00 – 11:15 AM)</td></tr>
+      <tr><td>Vinita Jakhar</td><td>M Ashok Kumar</td><td>Jobin Francis</td><td>11.15 - 11.45 AM</td><td><a href="abstracts/vinita_abstract.pdf">Abstract</a></td><td><a href="slides/vinita_slides.pdf">Slides</a></td></tr>
+      <tr><td>Anirban Mondal</td><td>Arijit Hazra</td><td>Sarath Sasi</td><td>11.45 - 12.15 AM</td><td><a href="abstracts/anirban_abstract.pdf">Abstract</a></td><td><a href="slides/anirban_slides.pdf">Slides</a></td></tr>
+      <tr><td>Pallavi Rai</td><td>Rohith Varma</td><td>Parangama Sarkar</td><td>12.15 - 12.45 AM</td><td><a href="abstracts/pallavi_abstract.pdf">Abstract</a></td><td><a href="slides/pallavi_slides.pdf">Slides</a></td></tr>
+      <tr class="break-row"><td colspan="6">🍱 Lunch Break (12:45 – 2:00 PM)</td></tr>
+      <tr><td>Shincy L Stuvart</td><td>Pramod Kuntikana</td><td>Vineed Narayanan</td><td>2.00 - 2.30 AM</td><td><a href="abstracts/shincy_abstract.pdf">Abstract</a></td><td><a href="slides/shincy_slides.pdf">Slides</a></td></tr>
+      <tr><td>Palak Sharma</td><td>Lakshmi Sankar K</td><td>C R Jayanarayanan</td><td>2.30 - 3.00 AM</td><td><a href="abstracts/palak_abstract.pdf">Abstract</a></td><td><a href="slides/palak_slides.pdf">Slides</a></td></tr>
+      <tr><td>Jakir Sarif Mondal</td><td>Varadharajan Muruganandam</td><td>Jaikrishnan Janardhanan</td><td>3.00 - 3.30 AM</td><td><a href="abstracts/jakir_abstract.pdf">Abstract</a></td><td><a href="slides/jakir_slides.pdf">Slides</a></td></tr>
+      <tr class="break-row"><td colspan="6">☕ Tea Break (3:30 – 3:45 PM)</td></tr>
+      <tr><td>Dip Saha</td><td>Varadharajan Muruganandam</td><td>Jaikrishnan Janardhanan</td><td>3.45 - 4.15 AM</td><td><a href="abstracts/dip_abstract.pdf">Abstract</a></td><td><a href="slides/dip_slides.pdf">Slides</a></td></tr>
+      <tr><td>Kamesh Rout</td><td>Srimanta Bhattacharya</td><td>Parangama Sarkar</td><td>4.15 - 4.45 AM</td><td><a href="abstracts/kamesh_abstract.pdf">Abstract</a></td><td><a href="slides/kamesh_slides.pdf">Slides</a></td></tr>
+      <tr><td>Chinthalacheruvu V S M Sriram</td><td>Pratik Ghosal</td><td>Kritika R</td><td>4.45 - 5.15 AM</td><td><a href="abstracts/sriram_abstract.pdf">Abstract</a></td><td><a href="slides/sriram_slides.pdf">Slides</a></td></tr>
+    </table>
+  </div>
+  </div>
+</body>
+</html>
